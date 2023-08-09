@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>262666</id>
+      <size>13</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-08-09 14:38:25.286393+00:00</created>
+      <updated>2023-08-09 16:26:24.586020+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>360</stop_frame>
+      <frame_filter>step=30</frame_filter>
+      <segments>
+        <segment>
+          <id>262787</id>
+          <start>0</start>
+          <stop>12</stop>
+          <url>https://app.cvat.ai/api/jobs/262666</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>kchammanard</username>
+        <email>kfccoolguy@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>corners</name>
+          <color>#c509d5</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>visibility</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>visible</default_value>
+              <values>visible
+occluded
+not visible</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>ojo</name>
+          <color>#7bfccb</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2023-08-09 16:26:32.325675+00:00</dumped>
+    <original_size>
+      <width>960</width>
+      <height>540</height>
+    </original_size>
+  </meta>
+  <image id="0" name="frame_000000" width="960" height="540">
+    <box label="ojo" source="manual" occluded="0" xtl="387.04" ytl="208.01" xbr="512.88" ybr="429.18" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="431.85,221.35" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="460.45,266.16" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="432.80,364.35" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="488.25,403.36" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="489.05,255.67" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="400.39,231.84" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="409.92,376.75" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="460.45,416.79" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="30" name="frame_000030" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="508.84,377.05" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="442.49,330.15" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="403.25" ytl="151.76" xbr="535.76" ybr="405.35" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="449.35,167.70" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="483.67,215.75" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="513.41,206.60" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="418.46,338.16" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="480.24,388.49" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="417.32,178.00" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="60" name="frame_000060" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="276.61,395.35" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="329.23,458.27" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="366.98,441.11" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="354.40,258.08" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="313.22,268.37" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="289.19,207.74" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="251.44,219.18" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="235.46" ytl="188.75" xbr="402.29" ybr="475.70" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="1" points="304.06,388.49" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+  </image>
+  <image id="90" name="frame_000090" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="471.09,405.65" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="338.38,187.15" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="370.42,166.56" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="443.63,228.33" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="473.38,205.45" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="348.68,375.91" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="834.88,357.60" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="439.05,425.10" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="321.26" ytl="149.85" xbr="508.11" ybr="443.48" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="1" points="376.14,356.46" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+  </image>
+  <image id="120" name="frame_000120" width="960" height="540">
+    <box label="ojo" source="manual" occluded="0" xtl="390.85" ytl="146.04" xbr="550.06" ybr="402.49" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="1" points="418.46,338.16" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="407.02,365.61" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="540.87,180.28" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="528.29,199.73" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="420.75,156.26" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="404.74,180.28" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="527.14,370.19" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="516.85,394.21" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="150" name="frame_000150" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="436.77,176.85" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="425.17" ytl="140.13" xbr="584.38" ybr="387.99" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="440.20,150.54" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="574.05,174.56" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="567.18,151.68" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="441.34,371.33" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="559.17,373.62" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="556.89,337.01" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="440.20,337.01" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+  </image>
+  <image id="180" name="frame_000180" width="960" height="540">
+    <points label="corners" source="manual" occluded="1" points="578.62,300.40" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="465.21" ytl="107.91" xbr="622.51" ybr="355.77" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="476.81,325.57" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="590.06,117.36" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="616.37,143.68" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="477.95,141.39" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="498.54,165.41" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="496.25,342.73" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="599.21,321.00" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="210" name="frame_000210" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="506.55,374.76" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="608.37,178.00" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="633.53,199.73" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="506.55,210.03" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="530.57,235.20" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="599.21,346.16" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="494.77" ytl="168.92" xbr="646.35" ybr="409.16" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="531.72,396.50" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="622.09,365.61" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="240" name="frame_000240" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="583.20,150.54" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="450.50,186.00" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="443.63,165.41" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="599.21,174.56" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="457.36,402.22" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="448.21,373.62" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="584.34,394.21" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="430.89" ytl="141.08" xbr="607.26" ybr="414.69" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="1" points="571.76,367.90" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+  </image>
+  <image id="270" name="frame_000270" width="960" height="540">
+    <box label="ojo" source="manual" occluded="0" xtl="329.84" ytl="17.34" xbr="537.67" ybr="335.75" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="505.41,49.87" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="500.83,326.71" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="512.27,302.69" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="509.98,36.14" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="364.70,310.70" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="379.57,287.82" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="339.53,47.58" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="355.54,30.42" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="300" name="frame_000300" width="960" height="540">
+    <points label="corners" source="manual" occluded="1" points="476.81,326.71" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="440.43" ytl="100.28" xbr="599.63" ybr="380.56" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="585.49,136.81" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="566.04,148.25" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="475.66,113.93" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="448.21,131.09" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="577.48,353.03" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="555.74,370.19" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="453.93,340.44" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="330" name="frame_000330" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="426.47,317.56" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="523.71,350.74" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="493.97,141.39" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="457.36,103.64" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="418.46,109.36" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="456.21,309.55" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="407.06" ytl="84.84" xbr="549.11" ybr="373.70" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="529.43,135.67" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="488.25,363.32" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+  <image id="360" name="frame_000360" width="960" height="540">
+    <points label="corners" source="manual" occluded="0" points="362.41,370.19" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="339.53,319.85" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="395.58,160.84" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="347.54,163.12" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="1" points="370.42,315.28" z_order="0">
+      <attribute name="visibility">not visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="365.84,121.94" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <points label="corners" source="manual" occluded="0" points="325.80,131.09" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+    <box label="ojo" source="manual" occluded="0" xtl="310.78" ytl="105.05" xbr="436.61" ybr="381.51" z_order="0">
+    </box>
+    <points label="corners" source="manual" occluded="0" points="408.17,365.61" z_order="0">
+      <attribute name="visibility">visible</attribute>
+    </points>
+  </image>
+</annotations>
